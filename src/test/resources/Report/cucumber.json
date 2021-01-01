@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify the AdactinHotel login details with valid Credentials",
+        "description": "",
+        "id": "verify-the-adactinhotel-login-details;verify-the-adactinhotel-login-details-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8464869300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on the AdactinHotel Page",
+            "match": {
+              "location": "AdactinSite.user_is_on_the_AdactinHotel_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3898620200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should login using the Valid \"Dummiezz\" and \"Dummy@13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dummiezz\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Dummy@13\"",
+                  "offset": 49
+                }
+              ],
+              "location": "AdactinSite.user_should_login_using_the_Valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4518206000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Selecthotel by Selecting \"Sydney\" ,\"Hotel Sunshine\",\"Super Deluxe\",\"8 - Eight\"and Enter \"05/12/2020\",\"09/12/2020\" and Select\"3 - Three\",\"3 - Three\" and click Search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Super Deluxe\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"8 - Eight\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"05/12/2020\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"09/12/2020\"",
+                  "offset": 113
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 148
+                }
+              ],
+              "location": "AdactinSite.user_Should_Selecthotel_by_Selecting_and_Enter_and_Select_and_click_Search_button(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827524000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Select the Hotel and click Continue.",
+            "match": {
+              "location": "AdactinSite.user_Should_Select_the_Hotel_and_click_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1372156900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Should Enter \"Muthu\",\"Krishnan\",\"NO 5,34th Cross St, VH Road\"and  enter Card Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Muthu\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Krishnan\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"NO 5,34th Cross St, VH Road\"",
+                  "offset": 37
+                }
+              ],
+              "location": "AdactinSite.user_Should_Enter_and_enter_Card_Details(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "creditCardNo",
+                  "cardType",
+                  "expMon",
+                  "expYear",
+                  "cvv"
+                ]
+              },
+              {
+                "cells": [
+                  "7894561230789456",
+                  "Master Card",
+                  "February",
+                  "2022",
+                  "456"
+                ]
+              },
+              {
+                "cells": [
+                  "1254561230787589",
+                  "American Express",
+                  "April",
+                  "2021",
+                  "852"
+                ]
+              },
+              {
+                "cells": [
+                  "8523561230789573",
+                  "VISA",
+                  "September",
+                  "2021",
+                  "103"
+                ]
+              },
+              {
+                "cells": [
+                  "7536561230781101",
+                  "Other",
+                  "November",
+                  "2022",
+                  "809"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6167529000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Should booknow and Display OrderId",
+            "match": {
+              "location": "AdactinSite.user_Should_booknow_and_Display_OrderId()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the AdactinHotel login Details",
+    "description": "",
+    "id": "verify-the-adactinhotel-login-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/LoginPage.feature",
+    "tags": []
+  }
+]
